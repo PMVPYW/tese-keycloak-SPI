@@ -1,5 +1,6 @@
-package pt.ipleiria;
+package pt.ipleiria.KeyStrokeStorer;
 
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import org.keycloak.events.Event;
 import org.keycloak.events.EventListenerProvider;
 import org.jboss.logging.Logger;
@@ -10,7 +11,12 @@ import org.keycloak.events.admin.ResourceType;
 import org.keycloak.models.KeycloakSession;
 import org.keycloak.models.RealmModel;
 import org.keycloak.models.UserModel;
-import org.keycloak.services.resources.admin.UserResource;
+import org.keycloak.util.JsonSerialization;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class PasswordChangeListener implements EventListenerProvider {
     private static final Logger logger = Logger.getLogger(PasswordChangeListener.class);
@@ -36,6 +42,40 @@ public class PasswordChangeListener implements EventListenerProvider {
             RealmModel realm = session.getContext().getRealm();
 
             deleteUserKeystrokeData(realm, event.getUserId());
+        } else if (eventType.equals(EventType.LOGIN)){
+            updateLastKeystrokeToValidated(event.getUserId(), event.getRealmId());
+        }
+    }
+
+    private void updateLastKeystrokeToValidated(String userId, String realmId) {
+        RealmModel realm = session.realms().getRealm(realmId);
+        UserModel user = session.users().getUserById(realm, userId);
+
+        if (user == null) return;
+
+        String attributeKey = "keystroke_history_decoded";
+
+         List<String> history = user.getAttributeStream(attributeKey)
+                .collect(Collectors.toCollection(ArrayList::new));
+
+        if (history.isEmpty()) return;
+
+        int lastIndex = history.size() - 1;
+        String lastEntryJson = history.getLast();
+
+        try {
+            ObjectNode node = (ObjectNode) JsonSerialization.mapper.readTree(lastEntryJson);
+
+            node.put("validated", true);
+
+            history.set(lastIndex, JsonSerialization.writeValueAsString(node));
+
+            user.setAttribute(attributeKey, history);
+
+            logger.info("Keystroke Dynamics VALIDADO com sucesso para user: " + user.getUsername());
+
+        } catch (IOException e) {
+            logger.error("Falha ao validar keystroke JSON", e);
         }
     }
 

@@ -1,4 +1,4 @@
-package pt.ipleiria;
+package pt.ipleiria.KeyStrokeStorer;
 
 import org.keycloak.Config;
 import org.keycloak.events.EventListenerProvider;

@@ -1,4 +1,4 @@
-package pt.ipleiria;
+package pt.ipleiria.KeyStrokeStorer;
 
 import jakarta.ws.rs.core.MultivaluedMap;
 import org.keycloak.authentication.AuthenticationFlowContext;
@@ -9,7 +9,7 @@ import org.keycloak.models.UserModel;
 import org.keycloak.util.JsonSerialization;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import org.jboss.logging.Logger;
-import org.slf4j.LoggerFactory;
+import pt.ipleiria.common.UserTypingData;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -19,7 +19,6 @@ import java.util.stream.Collectors;
 public class KeyStrokeStorer implements Authenticator {
 
     private static final Logger logger = Logger.getLogger(KeyStrokeStorer.class);
-    private static final org.slf4j.Logger log = LoggerFactory.getLogger(KeyStrokeStorer.class);
 
     @Override
     public void authenticate(AuthenticationFlowContext context) {
@@ -29,13 +28,14 @@ public class KeyStrokeStorer implements Authenticator {
         if (user != null) {
             try {
                 // Descodificar
-                TypingPatternDecoder.UserTypingData decodedData = TypingPatternDecoder.decodeFromFormData(formData);
+                UserTypingData decodedData = TypingPatternDecoder.decodeFromFormData(formData);
 
                 if (decodedData.usernameData != null || decodedData.passwordData != null) {
                     // Criar JSON
                     ObjectNode historyEntry = JsonSerialization.createObjectNode();
                     historyEntry.put("timestamp", System.currentTimeMillis());
                     historyEntry.put("date_readable", java.time.Instant.now().toString());
+                    historyEntry.put("validated", false);
 
                     if (decodedData.usernameData != null) {
                         historyEntry.set("username_metrics", JsonSerialization.mapper.valueToTree(decodedData.usernameData));

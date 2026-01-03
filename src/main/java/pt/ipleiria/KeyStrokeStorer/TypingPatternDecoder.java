@@ -1,67 +1,10 @@
-package pt.ipleiria;
+package pt.ipleiria.KeyStrokeStorer;
 
-import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-
-import java.util.ArrayList;
-import java.util.List;
+import pt.ipleiria.common.*;
 
 public class TypingPatternDecoder {
-
-    // DTO para um evento de tecla (apenas tempos e ordem)
-    public static class KeystrokeEvent {
-        public int index;     // Ordem da tecla (0, 1, 2...)
-        public int seekTime;  // Tempo até atingir a tecla
-        public int pressTime; // Tempo a pressionar a tecla
-
-        public KeystrokeEvent(int index, int seekTime, int pressTime) {
-            this.index = index;
-            this.seekTime = seekTime;
-            this.pressTime = pressTime;
-        }
-    }
-
-    // DTO para o conjunto de dados
-    public static class DecodedData {
-        public long totalTimeMs;
-        public List<KeystrokeEvent> events;
-
-        public DecodedData() {
-            this.totalTimeMs = 0;
-            this.events = new ArrayList<>();
-        }
-    }
-
-    public static class ScreenDimensions {
-        public long width;
-        public long height;
-        public String resolution;
-
-        public ScreenDimensions(long width, long height) {
-            this.width = width;
-            this.height = height;
-            this.resolution = width + "x" + height;
-        }
-    }
-
-    public static class DeviceInfo {
-
-            public String browser;
-            public Boolean isMobile;
-            public Boolean hasMotion;
-            public ScreenDimensions screenDimensions;
-            public String platform;
-            public String language;
-            public String userAgent;
-    }
-
-    // Container para os dois campos
-    public static class UserTypingData {
-        public DecodedData usernameData;
-        public DecodedData passwordData;
-        public DeviceInfo deviceInfo;
-    }
 
     /**
      * Entrada principal

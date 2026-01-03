@@ -1,1 +1,2 @@
-pt.ipleiria.KeyStrokeStorerFactory
+pt.ipleiria.KeyStrokeStorer.KeyStrokeStorerFactory
+pt.ipleiria.FreemanModel.FreemanAuthenticatorFactory
