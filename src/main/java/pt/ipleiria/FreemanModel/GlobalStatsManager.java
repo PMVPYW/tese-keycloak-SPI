@@ -128,7 +128,7 @@ public class GlobalStatsManager {
 
         // Laplace Smoothing: (count + 1) / (total + vocabulario)
         // Evita divisão por zero e probabilidades nulas
-        return (double) (count + 1) / (total + 100);
+        return (double) (count + 1) / (total + 1);
     }
 
     // Método auxiliar para forçar recarregamento (ex: via Admin API)
