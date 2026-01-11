@@ -9,6 +9,7 @@ import org.keycloak.models.UserModel;
 import org.keycloak.util.JsonSerialization;
 import pt.ipleiria.common.KeystrokeHistoryEntryDTO;
 import pt.ipleiria.common.UserTypingData;
+import pt.ipleiria.common.UserUtils;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -29,12 +30,12 @@ public class FreemanAuthenticator implements ConditionalAuthenticator {
             return false;
         }
 
-        UserTypingData lastTypingData = getDecodedDataToEvaluate(user);
+        UserTypingData lastTypingData = UserUtils.getDecodedDataToEvaluate(user);
 
         GlobalStatsManager.getInstance().loadGlobalStats(authenticationFlowContext.getSession(), authenticationFlowContext.getRealm(), lastTypingData.deviceInfo.isMobile);
 
 
-        List<UserTypingData> userTypingData = getDecodedData(user, lastTypingData.deviceInfo.isMobile);
+        List<UserTypingData> userTypingData = UserUtils.getDecodedData(user, lastTypingData.deviceInfo.isMobile);
 
         logger.info("User has : " + String.valueOf(userTypingData.size() + " registers."));
 
@@ -57,45 +58,6 @@ public class FreemanAuthenticator implements ConditionalAuthenticator {
         // 6. DECISÃO
         // Se Score > Threshold -> True (Ativa o OTP no sub-fluxo)
         return riskScore > RISK_THRESHOLD;
-    }
-
-    protected List<UserTypingData> getDecodedData(UserModel user, boolean mobile) {
-        String attributeKey = "keystroke_history_decoded";
-        List<String> currentHistory = user.getAttributeStream(attributeKey)
-                .collect(Collectors.toCollection(ArrayList::new));
-
-        List<UserTypingData> decodedHistory = new ArrayList<>();
-
-        for (String jsonString : currentHistory) {
-            try {
-                // Converte a String JSON para o Objeto Java
-                KeystrokeHistoryEntryDTO entry = JsonSerialization.readValue(jsonString, KeystrokeHistoryEntryDTO.class);
-                if (entry.validated && entry.deviceInfo.isMobile == mobile) {
-                    decodedHistory.add(entry.toUserTypingData());
-                }
-            } catch (IOException e) {
-                logger.error("Falha ao deserializar entrada de histórico: " + e.getMessage());
-            }
-        }
-        return decodedHistory;
-    }
-
-    protected UserTypingData getDecodedDataToEvaluate(UserModel user) {
-        String attributeKey = "keystroke_history_decoded";
-        List<String> currentHistory = user.getAttributeStream(attributeKey)
-                .collect(Collectors.toCollection(ArrayList::new));
-
-        if (currentHistory.size() < 1) {
-            return null;
-        }
-        KeystrokeHistoryEntryDTO entry = null;
-        try {
-            entry = JsonSerialization.readValue(currentHistory.getLast(), KeystrokeHistoryEntryDTO.class);
-        } catch (IOException e) {
-            logger.error("Falha ao deserializar entrada de histórico: " + e.getMessage());
-        }
-
-        return entry != null ? entry.toUserTypingData() : null;
     }
 
     protected void setLastLoginAsValidated(UserModel user) {
