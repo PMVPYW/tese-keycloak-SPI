@@ -5,6 +5,9 @@ public class ScreenDimensions {
     public long height;
     public String resolution;
 
+    public ScreenDimensions() {
+    }
+
     public ScreenDimensions(long width, long height) {
         this.width = width;
         this.height = height;

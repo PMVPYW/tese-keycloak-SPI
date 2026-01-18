@@ -1,0 +1,1050 @@
+[
+  {
+    "timestamp": 1766935923959,
+    "date_readable": "2025-12-28T15:32:03.959159827Z",
+    "validated": true,
+    "usernameData": {
+      "totalTimeMs": 6798,
+      "events": [
+        { "index": 0, "seekTime": 4634, "pressTime": 5 },
+        { "index": 1, "seekTime": 1443, "pressTime": 7 },
+        { "index": 2, "seekTime": 707, "pressTime": 2 }
+      ]
+    },
+    "passwordData": {
+      "totalTimeMs": 11044,
+      "events": [
+        { "index": 0, "seekTime": 5139, "pressTime": 1 },
+        { "index": 1, "seekTime": 401, "pressTime": 2 },
+        { "index": 2, "seekTime": 630, "pressTime": 1 },
+        { "index": 3, "seekTime": 266, "pressTime": 1 },
+        { "index": 4, "seekTime": 778, "pressTime": 2 },
+        { "index": 5, "seekTime": 540, "pressTime": 2 },
+        { "index": 6, "seekTime": 877, "pressTime": 2 },
+        { "index": 7, "seekTime": 557, "pressTime": 2 },
+        { "index": 8, "seekTime": 672, "pressTime": 2 },
+        { "index": 9, "seekTime": 607, "pressTime": 1 },
+        { "index": 10, "seekTime": 559, "pressTime": 2 }
+      ]
+    },
+    "deviceInfo": {
+      "browser": "blink",
+      "isMobile": true,
+      "hasMotion": false,
+      "screenDimensions": { "width": 384, "height": 854, "resolution": "384x854" },
+      "platform": "Linux armv81",
+      "language": "pt-PT",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
+    }
+  },
+  {
+    "timestamp": 1766935946858,
+    "date_readable": "2025-12-28T15:32:26.858095651Z",
+    "validated": true,
+    "usernameData": {
+      "totalTimeMs": 8109,
+      "events": [
+        { "index": 0, "seekTime": 6035, "pressTime": 4 },
+        { "index": 1, "seekTime": 936, "pressTime": 2 },
+        { "index": 2, "seekTime": 1130, "pressTime": 2 }
+      ]
+    },
+    "passwordData": {
+      "totalTimeMs": 7585,
+      "events": [
+        { "index": 0, "seekTime": 2709, "pressTime": 1 },
+        { "index": 1, "seekTime": 265, "pressTime": 1 },
+        { "index": 2, "seekTime": 615, "pressTime": 1 },
+        { "index": 3, "seekTime": 200, "pressTime": 1 },
+        { "index": 4, "seekTime": 840, "pressTime": 1 },
+        { "index": 5, "seekTime": 500, "pressTime": 2 },
+        { "index": 6, "seekTime": 531, "pressTime": 1 },
+        { "index": 7, "seekTime": 364, "pressTime": 2 },
+        { "index": 8, "seekTime": 624, "pressTime": 1 },
+        { "index": 9, "seekTime": 489, "pressTime": 1 },
+        { "index": 10, "seekTime": 434, "pressTime": 2 }
+      ]
+    },
+    "deviceInfo": {
+      "browser": "blink",
+      "isMobile": true,
+      "hasMotion": false,
+      "screenDimensions": { "width": 384, "height": 854, "resolution": "384x854" },
+      "platform": "Linux armv81",
+      "language": "pt-PT",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
+    }
+  },
+  {
+    "timestamp": 1766935999500,
+    "date_readable": "2025-12-28T15:33:19.500435463Z",
+    "validated": true,
+    "usernameData": {
+      "totalTimeMs": 4263,
+      "events": [
+        { "index": 0, "seekTime": 2693, "pressTime": 2 },
+        { "index": 1, "seekTime": 1099, "pressTime": 3 },
+        { "index": 2, "seekTime": 464, "pressTime": 2 }
+      ]
+    },
+    "passwordData": {
+      "totalTimeMs": 9440,
+      "events": [
+        { "index": 0, "seekTime": 3441, "pressTime": 1 },
+        { "index": 1, "seekTime": 325, "pressTime": 1 },
+        { "index": 2, "seekTime": 547, "pressTime": 2 },
+        { "index": 3, "seekTime": 250, "pressTime": 2 },
+        { "index": 4, "seekTime": 898, "pressTime": 1 },
+        { "index": 5, "seekTime": 290, "pressTime": 1 },
+        { "index": 6, "seekTime": 634, "pressTime": 5 },
+        { "index": 7, "seekTime": 1213, "pressTime": 2 },
+        { "index": 8, "seekTime": 733, "pressTime": 3 },
+        { "index": 9, "seekTime": 606, "pressTime": 2 },
+        { "index": 10, "seekTime": 482, "pressTime": 1 }
+      ]
+    },
+    "deviceInfo": {
+      "browser": "blink",
+      "isMobile": true,
+      "hasMotion": false,
+      "screenDimensions": { "width": 384, "height": 854, "resolution": "384x854" },
+      "platform": "Linux armv81",
+      "language": "pt-PT",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
+    }
+  },
+  {
+    "timestamp": 1766936021345,
+    "date_readable": "2025-12-28T15:33:41.345184317Z",
+    "validated": true,
+    "usernameData": {
+      "totalTimeMs": 4320,
+      "events": [
+        { "index": 0, "seekTime": 2594, "pressTime": 2 },
+        { "index": 1, "seekTime": 939, "pressTime": 2 },
+        { "index": 2, "seekTime": 781, "pressTime": 2 }
+      ]
+    },
+    "passwordData": {
+      "totalTimeMs": 9315,
+      "events": [
+        { "index": 0, "seekTime": 3175, "pressTime": 1 },
+        { "index": 1, "seekTime": 274, "pressTime": 2 },
+        { "index": 2, "seekTime": 521, "pressTime": 1 },
+        { "index": 3, "seekTime": 207, "pressTime": 1 },
+        { "index": 4, "seekTime": 673, "pressTime": 1 },
+        { "index": 5, "seekTime": 309, "pressTime": 1 },
+        { "index": 6, "seekTime": 682, "pressTime": 2 },
+        { "index": 7, "seekTime": 1797, "pressTime": 3 },
+        { "index": 8, "seekTime": 603, "pressTime": 1 },
+        { "index": 9, "seekTime": 502, "pressTime": 3 },
+        { "index": 10, "seekTime": 554, "pressTime": 2 }
+      ]
+    },
+    "deviceInfo": {
+      "browser": "blink",
+      "isMobile": true,
+      "hasMotion": false,
+      "screenDimensions": { "width": 384, "height": 854, "resolution": "384x854" },
+      "platform": "Linux armv81",
+      "language": "pt-PT",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
+    }
+  },
+  {
+    "timestamp": 1766936049948,
+    "date_readable": "2025-12-28T15:34:09.948112449Z",
+    "validated": true,
+    "passwordData": {
+      "totalTimeMs": 9290,
+      "events": [
+        { "index": 0, "seekTime": 3695, "pressTime": 2 },
+        { "index": 1, "seekTime": 443, "pressTime": 2 },
+        { "index": 2, "seekTime": 613, "pressTime": 1 },
+        { "index": 3, "seekTime": 225, "pressTime": 1 },
+        { "index": 4, "seekTime": 725, "pressTime": 1 },
+        { "index": 5, "seekTime": 513, "pressTime": 1 },
+        { "index": 6, "seekTime": 450, "pressTime": 1 },
+        { "index": 7, "seekTime": 389, "pressTime": 1 },
+        { "index": 8, "seekTime": 1066, "pressTime": 2 },
+        { "index": 9, "seekTime": 591, "pressTime": 1 },
+        { "index": 10, "seekTime": 565, "pressTime": 2 }
+      ]
+    },
+    "deviceInfo": {
+      "browser": "blink",
+      "isMobile": true,
+      "hasMotion": false,
+      "screenDimensions": { "width": 384, "height": 854, "resolution": "384x854" },
+      "platform": "Linux armv81",
+      "language": "pt-PT",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36"
+    }
+  },
+  {
+    "timestamp": 1766936252966,
+    "date_readable": "2025-12-28T15:37:32.966288826Z",
+    "validated": true,
+    "usernameData": {
+      "totalTimeMs": 49637,
+      "events": [
+        { "index": 0, "seekTime": 47989, "pressTime": 57 },
+        { "index": 1, "seekTime": 901, "pressTime": 69 },
+        { "index": 2, "seekTime": 549, "pressTime": 72 }
+      ]
+    },
+    "passwordData": {
+      "totalTimeMs": 8046,
+      "events": [
+        { "index": 0, "seekTime": 1167, "pressTime": 63 },
+        { "index": 1, "seekTime": 172, "pressTime": 58 },
+        { "index": 2, "seekTime": 536, "pressTime": 78 },
+        { "index": 3, "seekTime": 349, "pressTime": 90 },
+        { "index": 4, "seekTime": 487, "pressTime": 68 },
+        { "index": 5, "seekTime": 694, "pressTime": 40 },
+        { "index": 6, "seekTime": 1918, "pressTime": 60 },
+        { "index": 7, "seekTime": 610, "pressTime": 66 },
+        { "index": 8, "seekTime": 486, "pressTime": 64 },
+        { "index": 9, "seekTime": 283, "pressTime": 72 },
+        { "index": 10, "seekTime": 590, "pressTime": 95 }
+      ]
+    },
+    "deviceInfo": {
+      "browser": "safari",
+      "isMobile": false,
+      "hasMotion": false,
+      "screenDimensions": { "width": 1920, "height": 1080, "resolution": "1920x1080" },
+      "platform": "Linux x86_64",
+      "language": "en-US",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15"
+    }
+  },
+  {
+    "timestamp": 1766936279366,
+    "date_readable": "2025-12-28T15:37:59.366907385Z",
+    "validated": true,
+    "usernameData": {
+      "totalTimeMs": 6739,
+      "events": [
+        { "index": 0, "seekTime": 4819, "pressTime": 66 },
+        { "index": 1, "seekTime": 1079, "pressTime": 74 },
+        { "index": 2, "seekTime": 631, "pressTime": 70 }
+      ]
+    },
+    "passwordData": {
+      "totalTimeMs": 6823,
+      "events": [
+        { "index": 0, "seekTime": 1039, "pressTime": 72 },
+        { "index": 1, "seekTime": 219, "pressTime": 47 },
+        { "index": 2, "seekTime": 425, "pressTime": 96 },
+        { "index": 3, "seekTime": 237, "pressTime": 91 },
+        { "index": 4, "seekTime": 500, "pressTime": 67 },
+        { "index": 5, "seekTime": 242, "pressTime": 58 },
+        { "index": 6, "seekTime": 850, "pressTime": 68 },
+        { "index": 7, "seekTime": 936, "pressTime": 63 },
+        { "index": 8, "seekTime": 729, "pressTime": 77 },
+        { "index": 9, "seekTime": 406, "pressTime": 66 },
+        { "index": 10, "seekTime": 464, "pressTime": 71 }
+      ]
+    },
+    "deviceInfo": {
+      "browser": "safari",
+      "isMobile": false,
+      "hasMotion": false,
+      "screenDimensions": { "width": 1920, "height": 1080, "resolution": "1920x1080" },
+      "platform": "Linux x86_64",
+      "language": "en-US",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15"
+    }
+  },
+  {
+    "timestamp": 1766936318846,
+    "date_readable": "2025-12-28T15:38:38.846888154Z",
+    "validated": true,
+    "passwordData": {
+      "totalTimeMs": 6791,
+      "events": [
+        { "index": 0, "seekTime": 1580, "pressTime": 77 },
+        { "index": 1, "seekTime": 239, "pressTime": 59 },
+        { "index": 2, "seekTime": 492, "pressTime": 82 },
+        { "index": 3, "seekTime": 288, "pressTime": 82 },
+        { "index": 4, "seekTime": 527, "pressTime": 76 },
+        { "index": 5, "seekTime": 290, "pressTime": 54 },
+        { "index": 6, "seekTime": 772, "pressTime": 70 },
+        { "index": 7, "seekTime": 434, "pressTime": 71 },
+        { "index": 8, "seekTime": 646, "pressTime": 66 },
+        { "index": 9, "seekTime": 390, "pressTime": 65 },
+        { "index": 10, "seekTime": 365, "pressTime": 66 }
+      ]
+    },
+    "deviceInfo": {
+      "browser": "safari",
+      "isMobile": false,
+      "hasMotion": false,
+      "screenDimensions": { "width": 1920, "height": 1080, "resolution": "1920x1080" },
+      "platform": "Linux x86_64",
+      "language": "en-US",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15"
+    }
+  },
+  {
+    "timestamp": 1766936358205,
+    "date_readable": "2025-12-28T15:39:18.205539488Z",
+    "validated": true,
+    "usernameData": {
+      "totalTimeMs": 4804,
+      "events": [
+        { "index": 0, "seekTime": 3527, "pressTime": 92 },
+        { "index": 1, "seekTime": 602, "pressTime": 71 },
+        { "index": 2, "seekTime": 449, "pressTime": 63 }
+      ]
+    },
+    "passwordData": {
+      "totalTimeMs": 7656,
+      "events": [
+        { "index": 0, "seekTime": 908, "pressTime": 90 },
+        { "index": 1, "seekTime": 299, "pressTime": 73 },
+        { "index": 2, "seekTime": 738, "pressTime": 80 },
+        { "index": 3, "seekTime": 417, "pressTime": 77 },
+        { "index": 4, "seekTime": 532, "pressTime": 73 },
+        { "index": 5, "seekTime": 492, "pressTime": 113 },
+        { "index": 6, "seekTime": 813, "pressTime": 66 },
+        { "index": 7, "seekTime": 882, "pressTime": 78 },
+        { "index": 8, "seekTime": 870, "pressTime": 93 },
+        { "index": 9, "seekTime": 353, "pressTime": 82 },
+        { "index": 10, "seekTime": 450, "pressTime": 77 }
+      ]
+    },
+    "deviceInfo": {
+      "browser": "safari",
+      "isMobile": false,
+      "hasMotion": false,
+      "screenDimensions": { "width": 1920, "height": 1080, "resolution": "1920x1080" },
+      "platform": "Linux x86_64",
+      "language": "en-US",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15"
+    }
+  },
+  {
+    "timestamp": 1766936439037,
+    "date_readable": "2025-12-28T15:40:39.037528852Z",
+    "validated": true,
+    "usernameData": {
+      "totalTimeMs": 4002,
+      "events": [
+        { "index": 0, "seekTime": 2540, "pressTime": 78 },
+        { "index": 1, "seekTime": 778, "pressTime": 74 },
+        { "index": 2, "seekTime": 452, "pressTime": 80 }
+      ]
+    },
+    "passwordData": {
+      "totalTimeMs": 8320,
+      "events": [
+        { "index": 0, "seekTime": 1023, "pressTime": 75 },
+        { "index": 1, "seekTime": 362, "pressTime": 80 },
+        { "index": 2, "seekTime": 757, "pressTime": 81 },
+        { "index": 3, "seekTime": 325, "pressTime": 93 },
+        { "index": 4, "seekTime": 583, "pressTime": 70 },
+        { "index": 5, "seekTime": 534, "pressTime": 89 },
+        { "index": 6, "seekTime": 826, "pressTime": 74 },
+        { "index": 7, "seekTime": 636, "pressTime": 71 },
+        { "index": 8, "seekTime": 1183, "pressTime": 66 },
+        { "index": 9, "seekTime": 716, "pressTime": 71 },
+        { "index": 10, "seekTime": 541, "pressTime": 64 }
+      ]
+    },
+    "deviceInfo": {
+      "browser": "safari",
+      "isMobile": false,
+      "hasMotion": false,
+      "screenDimensions": { "width": 1920, "height": 1080, "resolution": "1920x1080" },
+      "platform": "Linux x86_64",
+      "language": "en-US",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15"
+    }
+  },
+  {
+    "timestamp": 1766936466551,
+    "date_readable": "2025-12-28T15:41:06.551557297Z",
+    "validated": true,
+    "usernameData": {
+      "totalTimeMs": 4487,
+      "events": [
+        { "index": 0, "seekTime": 2743, "pressTime": 93 },
+        { "index": 1, "seekTime": 1101, "pressTime": 66 },
+        { "index": 2, "seekTime": 421, "pressTime": 63 }
+      ]
+    },
+    "passwordData": {
+      "totalTimeMs": 6259,
+      "events": [
+        { "index": 0, "seekTime": 1145, "pressTime": 79 },
+        { "index": 1, "seekTime": 314, "pressTime": 3 },
+        { "index": 2, "seekTime": 413, "pressTime": 92 },
+        { "index": 3, "seekTime": 242, "pressTime": 93 },
+        { "index": 4, "seekTime": 502, "pressTime": 68 },
+        { "index": 5, "seekTime": 211, "pressTime": 64 },
+        { "index": 6, "seekTime": 755, "pressTime": 77 },
+        { "index": 7, "seekTime": 350, "pressTime": 79 },
+        { "index": 8, "seekTime": 585, "pressTime": 81 },
+        { "index": 9, "seekTime": 486, "pressTime": 68 },
+        { "index": 10, "seekTime": 480, "pressTime": 72 }
+      ]
+    },
+    "deviceInfo": {
+      "browser": "safari",
+      "isMobile": false,
+      "hasMotion": false,
+      "screenDimensions": { "width": 1920, "height": 1080, "resolution": "1920x1080" },
+      "platform": "Linux x86_64",
+      "language": "en-US",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15"
+    }
+  },
+  {
+    "timestamp": 1766936496537,
+    "date_readable": "2025-12-28T15:41:36.537907666Z",
+    "validated": true,
+    "usernameData": {
+      "totalTimeMs": 4266,
+      "events": [
+        { "index": 0, "seekTime": 2443, "pressTime": 68 },
+        { "index": 1, "seekTime": 1096, "pressTime": 60 },
+        { "index": 2, "seekTime": 516, "pressTime": 83 }
+      ]
+    },
+    "passwordData": {
+      "totalTimeMs": 6702,
+      "events": [
+        { "index": 0, "seekTime": 1122, "pressTime": 84 },
+        { "index": 1, "seekTime": 281, "pressTime": 68 },
+        { "index": 2, "seekTime": 656, "pressTime": 70 },
+        { "index": 3, "seekTime": 325, "pressTime": 93 },
+        { "index": 4, "seekTime": 520, "pressTime": 61 },
+        { "index": 5, "seekTime": 193, "pressTime": 81 },
+        { "index": 6, "seekTime": 1034, "pressTime": 89 },
+        { "index": 7, "seekTime": 259, "pressTime": 83 },
+        { "index": 8, "seekTime": 619, "pressTime": 67 },
+        { "index": 9, "seekTime": 494, "pressTime": 80 },
+        { "index": 10, "seekTime": 359, "pressTime": 64 }
+      ]
+    },
+    "deviceInfo": {
+      "browser": "safari",
+      "isMobile": false,
+      "hasMotion": false,
+      "screenDimensions": { "width": 1920, "height": 1080, "resolution": "1920x1080" },
+      "platform": "Linux x86_64",
+      "language": "en-US",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15"
+    }
+  },
+  {
+    "timestamp": 1766936522537,
+    "date_readable": "2025-12-28T15:42:02.537991608Z",
+    "validated": true,
+    "usernameData": {
+      "totalTimeMs": 4021,
+      "events": [
+        { "index": 0, "seekTime": 1919, "pressTime": 66 },
+        { "index": 1, "seekTime": 549, "pressTime": 65 },
+        { "index": 2, "seekTime": 1341, "pressTime": 81 }
+      ]
+    },
+    "passwordData": {
+      "totalTimeMs": 6237,
+      "events": [
+        { "index": 0, "seekTime": 996, "pressTime": 76 },
+        { "index": 1, "seekTime": 218, "pressTime": 75 },
+        { "index": 2, "seekTime": 595, "pressTime": 91 },
+        { "index": 3, "seekTime": 257, "pressTime": 92 },
+        { "index": 4, "seekTime": 459, "pressTime": 65 },
+        { "index": 5, "seekTime": 189, "pressTime": 60 },
+        { "index": 6, "seekTime": 866, "pressTime": 57 },
+        { "index": 7, "seekTime": 212, "pressTime": 87 },
+        { "index": 8, "seekTime": 715, "pressTime": 92 },
+        { "index": 9, "seekTime": 457, "pressTime": 76 },
+        { "index": 10, "seekTime": 291, "pressTime": 211 }
+      ]
+    },
+    "deviceInfo": {
+      "browser": "safari",
+      "isMobile": false,
+      "hasMotion": false,
+      "screenDimensions": { "width": 1920, "height": 1080, "resolution": "1920x1080" },
+      "platform": "Linux x86_64",
+      "language": "en-US",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15"
+    }
+  },
+  {
+    "timestamp": 1766936522537,
+    "date_readable": "2025-12-28T15:42:02.537991608Z",
+    "validated": true,
+    "usernameData": {
+      "totalTimeMs": 4021,
+      "events": [
+        { "index": 0, "seekTime": 1919, "pressTime": 66 },
+        { "index": 1, "seekTime": 549, "pressTime": 65 },
+        { "index": 2, "seekTime": 1341, "pressTime": 81 }
+      ]
+    },
+    "passwordData": {
+      "totalTimeMs": 6237,
+      "events": [
+        { "index": 0, "seekTime": 996, "pressTime": 76 },
+        { "index": 1, "seekTime": 218, "pressTime": 75 },
+        { "index": 2, "seekTime": 595, "pressTime": 91 },
+        { "index": 3, "seekTime": 257, "pressTime": 92 },
+        { "index": 4, "seekTime": 459, "pressTime": 65 },
+        { "index": 5, "seekTime": 189, "pressTime": 60 },
+        { "index": 6, "seekTime": 866, "pressTime": 57 },
+        { "index": 7, "seekTime": 212, "pressTime": 87 },
+        { "index": 8, "seekTime": 715, "pressTime": 92 },
+        { "index": 9, "seekTime": 457, "pressTime": 76 },
+        { "index": 10, "seekTime": 291, "pressTime": 211 }
+      ]
+    },
+    "deviceInfo": {
+      "browser": "safari",
+      "isMobile": false,
+      "hasMotion": false,
+      "screenDimensions": { "width": 1920, "height": 1080, "resolution": "1920x1080" },
+      "platform": "Linux x86_64",
+      "language": "en-US",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15"
+    }
+  },
+  {
+    "timestamp": 1766936522537,
+    "date_readable": "2025-12-28T15:42:02.537991608Z",
+    "validated": true,
+    "usernameData": {
+      "totalTimeMs": 4021,
+      "events": [
+        { "index": 0, "seekTime": 1919, "pressTime": 66 },
+        { "index": 1, "seekTime": 549, "pressTime": 65 },
+        { "index": 2, "seekTime": 1341, "pressTime": 81 }
+      ]
+    },
+    "passwordData": {
+      "totalTimeMs": 6237,
+      "events": [
+        { "index": 0, "seekTime": 996, "pressTime": 76 },
+        { "index": 1, "seekTime": 218, "pressTime": 75 },
+        { "index": 2, "seekTime": 595, "pressTime": 91 },
+        { "index": 3, "seekTime": 257, "pressTime": 92 },
+        { "index": 4, "seekTime": 459, "pressTime": 65 },
+        { "index": 5, "seekTime": 189, "pressTime": 60 },
+        { "index": 6, "seekTime": 866, "pressTime": 57 },
+        { "index": 7, "seekTime": 212, "pressTime": 87 },
+        { "index": 8, "seekTime": 715, "pressTime": 92 },
+        { "index": 9, "seekTime": 457, "pressTime": 76 },
+        { "index": 10, "seekTime": 291, "pressTime": 211 }
+      ]
+    },
+    "deviceInfo": {
+      "browser": "safari",
+      "isMobile": false,
+      "hasMotion": false,
+      "screenDimensions": { "width": 1920, "height": 1080, "resolution": "1920x1080" },
+      "platform": "Linux x86_64",
+      "language": "en-US",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15"
+    }
+  },
+  {
+    "timestamp": 1766936522537,
+    "date_readable": "2025-12-28T15:42:02.537991608Z",
+    "validated": true,
+    "usernameData": {
+      "totalTimeMs": 4021,
+      "events": [
+        { "index": 0, "seekTime": 1919, "pressTime": 66 },
+        { "index": 1, "seekTime": 549, "pressTime": 65 },
+        { "index": 2, "seekTime": 1341, "pressTime": 81 }
+      ]
+    },
+    "passwordData": {
+      "totalTimeMs": 6237,
+      "events": [
+        { "index": 0, "seekTime": 996, "pressTime": 76 },
+        { "index": 1, "seekTime": 218, "pressTime": 75 },
+        { "index": 2, "seekTime": 595, "pressTime": 91 },
+        { "index": 3, "seekTime": 257, "pressTime": 92 },
+        { "index": 4, "seekTime": 459, "pressTime": 65 },
+        { "index": 5, "seekTime": 189, "pressTime": 60 },
+        { "index": 6, "seekTime": 866, "pressTime": 57 },
+        { "index": 7, "seekTime": 212, "pressTime": 87 },
+        { "index": 8, "seekTime": 715, "pressTime": 92 },
+        { "index": 9, "seekTime": 457, "pressTime": 76 },
+        { "index": 10, "seekTime": 291, "pressTime": 211 }
+      ]
+    },
+    "deviceInfo": {
+      "browser": "safari",
+      "isMobile": false,
+      "hasMotion": false,
+      "screenDimensions": { "width": 1920, "height": 1080, "resolution": "1920x1080" },
+      "platform": "Linux x86_64",
+      "language": "en-US",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15"
+    }
+  },
+  {
+    "timestamp": 1766936358205,
+    "date_readable": "2025-12-28T15:39:18.205539488Z",
+    "validated": true,
+    "usernameData": {
+      "totalTimeMs": 4804,
+      "events": [
+        { "index": 0, "seekTime": 3527, "pressTime": 92 },
+        { "index": 1, "seekTime": 602, "pressTime": 71 },
+        { "index": 2, "seekTime": 449, "pressTime": 63 }
+      ]
+    },
+    "passwordData": {
+      "totalTimeMs": 7656,
+      "events": [
+        { "index": 0, "seekTime": 908, "pressTime": 90 },
+        { "index": 1, "seekTime": 299, "pressTime": 73 },
+        { "index": 2, "seekTime": 738, "pressTime": 80 },
+        { "index": 3, "seekTime": 417, "pressTime": 77 },
+        { "index": 4, "seekTime": 532, "pressTime": 73 },
+        { "index": 5, "seekTime": 492, "pressTime": 113 },
+        { "index": 6, "seekTime": 813, "pressTime": 66 },
+        { "index": 7, "seekTime": 882, "pressTime": 78 },
+        { "index": 8, "seekTime": 870, "pressTime": 93 },
+        { "index": 9, "seekTime": 353, "pressTime": 82 },
+        { "index": 10, "seekTime": 450, "pressTime": 77 }
+      ]
+    },
+    "deviceInfo": {
+      "browser": "safari",
+      "isMobile": false,
+      "hasMotion": false,
+      "screenDimensions": { "width": 1920, "height": 1080, "resolution": "1920x1080" },
+      "platform": "Linux x86_64",
+      "language": "en-US",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15"
+    }
+  },
+  {
+    "timestamp": 1766936358205,
+    "date_readable": "2025-12-28T15:39:18.205539488Z",
+    "validated": true,
+    "usernameData": {
+      "totalTimeMs": 4804,
+      "events": [
+        { "index": 0, "seekTime": 3527, "pressTime": 92 },
+        { "index": 1, "seekTime": 602, "pressTime": 71 },
+        { "index": 2, "seekTime": 449, "pressTime": 63 }
+      ]
+    },
+    "passwordData": {
+      "totalTimeMs": 7656,
+      "events": [
+        { "index": 0, "seekTime": 908, "pressTime": 90 },
+        { "index": 1, "seekTime": 299, "pressTime": 73 },
+        { "index": 2, "seekTime": 738, "pressTime": 80 },
+        { "index": 3, "seekTime": 417, "pressTime": 77 },
+        { "index": 4, "seekTime": 532, "pressTime": 73 },
+        { "index": 5, "seekTime": 492, "pressTime": 113 },
+        { "index": 6, "seekTime": 813, "pressTime": 66 },
+        { "index": 7, "seekTime": 882, "pressTime": 78 },
+        { "index": 8, "seekTime": 870, "pressTime": 93 },
+        { "index": 9, "seekTime": 353, "pressTime": 82 },
+        { "index": 10, "seekTime": 450, "pressTime": 77 }
+      ]
+    },
+    "deviceInfo": {
+      "browser": "safari",
+      "isMobile": false,
+      "hasMotion": false,
+      "screenDimensions": { "width": 1920, "height": 1080, "resolution": "1920x1080" },
+      "platform": "Linux x86_64",
+      "language": "en-US",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15"
+    }
+  },
+  {
+    "timestamp": 1766936358205,
+    "date_readable": "2025-12-28T15:39:18.205539488Z",
+    "validated": true,
+    "usernameData": {
+      "totalTimeMs": 4804,
+      "events": [
+        { "index": 0, "seekTime": 3527, "pressTime": 92 },
+        { "index": 1, "seekTime": 602, "pressTime": 71 },
+        { "index": 2, "seekTime": 449, "pressTime": 63 }
+      ]
+    },
+    "passwordData": {
+      "totalTimeMs": 7656,
+      "events": [
+        { "index": 0, "seekTime": 908, "pressTime": 90 },
+        { "index": 1, "seekTime": 299, "pressTime": 73 },
+        { "index": 2, "seekTime": 738, "pressTime": 80 },
+        { "index": 3, "seekTime": 417, "pressTime": 77 },
+        { "index": 4, "seekTime": 532, "pressTime": 73 },
+        { "index": 5, "seekTime": 492, "pressTime": 113 },
+        { "index": 6, "seekTime": 813, "pressTime": 66 },
+        { "index": 7, "seekTime": 882, "pressTime": 78 },
+        { "index": 8, "seekTime": 870, "pressTime": 93 },
+        { "index": 9, "seekTime": 353, "pressTime": 82 },
+        { "index": 10, "seekTime": 450, "pressTime": 77 }
+      ]
+    },
+    "deviceInfo": {
+      "browser": "safari",
+      "isMobile": false,
+      "hasMotion": false,
+      "screenDimensions": { "width": 1920, "height": 1080, "resolution": "1920x1080" },
+      "platform": "Linux x86_64",
+      "language": "en-US",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15"
+    }
+  },
+  {
+    "timestamp": 1766936358205,
+    "date_readable": "2025-12-28T15:39:18.205539488Z",
+    "validated": true,
+    "usernameData": {
+      "totalTimeMs": 4804,
+      "events": [
+        { "index": 0, "seekTime": 3527, "pressTime": 92 },
+        { "index": 1, "seekTime": 602, "pressTime": 71 },
+        { "index": 2, "seekTime": 449, "pressTime": 63 }
+      ]
+    },
+    "passwordData": {
+      "totalTimeMs": 7656,
+      "events": [
+        { "index": 0, "seekTime": 908, "pressTime": 90 },
+        { "index": 1, "seekTime": 299, "pressTime": 73 },
+        { "index": 2, "seekTime": 738, "pressTime": 80 },
+        { "index": 3, "seekTime": 417, "pressTime": 77 },
+        { "index": 4, "seekTime": 532, "pressTime": 73 },
+        { "index": 5, "seekTime": 492, "pressTime": 113 },
+        { "index": 6, "seekTime": 813, "pressTime": 66 },
+        { "index": 7, "seekTime": 882, "pressTime": 78 },
+        { "index": 8, "seekTime": 870, "pressTime": 93 },
+        { "index": 9, "seekTime": 353, "pressTime": 82 },
+        { "index": 10, "seekTime": 450, "pressTime": 77 }
+      ]
+    },
+    "deviceInfo": {
+      "browser": "safari",
+      "isMobile": false,
+      "hasMotion": false,
+      "screenDimensions": { "width": 1920, "height": 1080, "resolution": "1920x1080" },
+      "platform": "Linux x86_64",
+      "language": "en-US",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15"
+    }
+  },
+  {
+    "timestamp": 1766936358205,
+    "date_readable": "2025-12-28T15:39:18.205539488Z",
+    "validated": true,
+    "usernameData": {
+      "totalTimeMs": 4804,
+      "events": [
+        { "index": 0, "seekTime": 3527, "pressTime": 92 },
+        { "index": 1, "seekTime": 602, "pressTime": 71 },
+        { "index": 2, "seekTime": 449, "pressTime": 63 }
+      ]
+    },
+    "passwordData": {
+      "totalTimeMs": 7656,
+      "events": [
+        { "index": 0, "seekTime": 908, "pressTime": 90 },
+        { "index": 1, "seekTime": 299, "pressTime": 73 },
+        { "index": 2, "seekTime": 738, "pressTime": 80 },
+        { "index": 3, "seekTime": 417, "pressTime": 77 },
+        { "index": 4, "seekTime": 532, "pressTime": 73 },
+        { "index": 5, "seekTime": 492, "pressTime": 113 },
+        { "index": 6, "seekTime": 813, "pressTime": 66 },
+        { "index": 7, "seekTime": 882, "pressTime": 78 },
+        { "index": 8, "seekTime": 870, "pressTime": 93 },
+        { "index": 9, "seekTime": 353, "pressTime": 82 },
+        { "index": 10, "seekTime": 450, "pressTime": 77 }
+      ]
+    },
+    "deviceInfo": {
+      "browser": "safari",
+      "isMobile": false,
+      "hasMotion": false,
+      "screenDimensions": { "width": 1920, "height": 1080, "resolution": "1920x1080" },
+      "platform": "Linux x86_64",
+      "language": "en-US",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15"
+    }
+  },
+  {
+    "timestamp": 1766936358205,
+    "date_readable": "2025-12-28T15:39:18.205539488Z",
+    "validated": true,
+    "usernameData": {
+      "totalTimeMs": 4804,
+      "events": [
+        { "index": 0, "seekTime": 3527, "pressTime": 92 },
+        { "index": 1, "seekTime": 602, "pressTime": 71 },
+        { "index": 2, "seekTime": 449, "pressTime": 63 }
+      ]
+    },
+    "passwordData": {
+      "totalTimeMs": 7656,
+      "events": [
+        { "index": 0, "seekTime": 908, "pressTime": 90 },
+        { "index": 1, "seekTime": 299, "pressTime": 73 },
+        { "index": 2, "seekTime": 738, "pressTime": 80 },
+        { "index": 3, "seekTime": 417, "pressTime": 77 },
+        { "index": 4, "seekTime": 532, "pressTime": 73 },
+        { "index": 5, "seekTime": 492, "pressTime": 113 },
+        { "index": 6, "seekTime": 813, "pressTime": 66 },
+        { "index": 7, "seekTime": 882, "pressTime": 78 },
+        { "index": 8, "seekTime": 870, "pressTime": 93 },
+        { "index": 9, "seekTime": 353, "pressTime": 82 },
+        { "index": 10, "seekTime": 450, "pressTime": 77 }
+      ]
+    },
+    "deviceInfo": {
+      "browser": "safari",
+      "isMobile": false,
+      "hasMotion": false,
+      "screenDimensions": { "width": 1920, "height": 1080, "resolution": "1920x1080" },
+      "platform": "Linux x86_64",
+      "language": "en-US",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15"
+    }
+  },
+  {
+    "timestamp": 1766936358205,
+    "date_readable": "2025-12-28T15:39:18.205539488Z",
+    "validated": true,
+    "usernameData": {
+      "totalTimeMs": 4804,
+      "events": [
+        { "index": 0, "seekTime": 3527, "pressTime": 92 },
+        { "index": 1, "seekTime": 602, "pressTime": 71 },
+        { "index": 2, "seekTime": 449, "pressTime": 63 }
+      ]
+    },
+    "passwordData": {
+      "totalTimeMs": 7656,
+      "events": [
+        { "index": 0, "seekTime": 908, "pressTime": 90 },
+        { "index": 1, "seekTime": 299, "pressTime": 73 },
+        { "index": 2, "seekTime": 738, "pressTime": 80 },
+        { "index": 3, "seekTime": 417, "pressTime": 77 },
+        { "index": 4, "seekTime": 532, "pressTime": 73 },
+        { "index": 5, "seekTime": 492, "pressTime": 113 },
+        { "index": 6, "seekTime": 813, "pressTime": 66 },
+        { "index": 7, "seekTime": 882, "pressTime": 78 },
+        { "index": 8, "seekTime": 870, "pressTime": 93 },
+        { "index": 9, "seekTime": 353, "pressTime": 82 },
+        { "index": 10, "seekTime": 450, "pressTime": 77 }
+      ]
+    },
+    "deviceInfo": {
+      "browser": "safari",
+      "isMobile": false,
+      "hasMotion": false,
+      "screenDimensions": { "width": 1920, "height": 1080, "resolution": "1920x1080" },
+      "platform": "Linux x86_64",
+      "language": "en-US",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15"
+    }
+  },
+  {
+    "timestamp": 1766936358205,
+    "date_readable": "2025-12-28T15:39:18.205539488Z",
+    "validated": true,
+    "usernameData": {
+      "totalTimeMs": 4804,
+      "events": [
+        { "index": 0, "seekTime": 3527, "pressTime": 92 },
+        { "index": 1, "seekTime": 602, "pressTime": 71 },
+        { "index": 2, "seekTime": 449, "pressTime": 63 }
+      ]
+    },
+    "passwordData": {
+      "totalTimeMs": 7656,
+      "events": [
+        { "index": 0, "seekTime": 908, "pressTime": 90 },
+        { "index": 1, "seekTime": 299, "pressTime": 73 },
+        { "index": 2, "seekTime": 738, "pressTime": 80 },
+        { "index": 3, "seekTime": 417, "pressTime": 77 },
+        { "index": 4, "seekTime": 532, "pressTime": 73 },
+        { "index": 5, "seekTime": 492, "pressTime": 113 },
+        { "index": 6, "seekTime": 813, "pressTime": 66 },
+        { "index": 7, "seekTime": 882, "pressTime": 78 },
+        { "index": 8, "seekTime": 870, "pressTime": 93 },
+        { "index": 9, "seekTime": 353, "pressTime": 82 },
+        { "index": 10, "seekTime": 450, "pressTime": 77 }
+      ]
+    },
+    "deviceInfo": {
+      "browser": "safari",
+      "isMobile": false,
+      "hasMotion": false,
+      "screenDimensions": { "width": 1920, "height": 1080, "resolution": "1920x1080" },
+      "platform": "Linux x86_64",
+      "language": "en-US",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15"
+    }
+  },
+  {
+    "timestamp": 1766936358205,
+    "date_readable": "2025-12-28T15:39:18.205539488Z",
+    "validated": true,
+    "usernameData": {
+      "totalTimeMs": 4804,
+      "events": [
+        { "index": 0, "seekTime": 3527, "pressTime": 92 },
+        { "index": 1, "seekTime": 602, "pressTime": 71 },
+        { "index": 2, "seekTime": 449, "pressTime": 63 }
+      ]
+    },
+    "passwordData": {
+      "totalTimeMs": 7656,
+      "events": [
+        { "index": 0, "seekTime": 908, "pressTime": 90 },
+        { "index": 1, "seekTime": 299, "pressTime": 73 },
+        { "index": 2, "seekTime": 738, "pressTime": 80 },
+        { "index": 3, "seekTime": 417, "pressTime": 77 },
+        { "index": 4, "seekTime": 532, "pressTime": 73 },
+        { "index": 5, "seekTime": 492, "pressTime": 113 },
+        { "index": 6, "seekTime": 813, "pressTime": 66 },
+        { "index": 7, "seekTime": 882, "pressTime": 78 },
+        { "index": 8, "seekTime": 870, "pressTime": 93 },
+        { "index": 9, "seekTime": 353, "pressTime": 82 },
+        { "index": 10, "seekTime": 450, "pressTime": 77 }
+      ]
+    },
+    "deviceInfo": {
+      "browser": "safari",
+      "isMobile": false,
+      "hasMotion": false,
+      "screenDimensions": { "width": 1920, "height": 1080, "resolution": "1920x1080" },
+      "platform": "Linux x86_64",
+      "language": "en-US",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15"
+    }
+  },
+  {
+    "timestamp": 1766936358205,
+    "date_readable": "2025-12-28T15:39:18.205539488Z",
+    "validated": true,
+    "usernameData": {
+      "totalTimeMs": 4804,
+      "events": [
+        { "index": 0, "seekTime": 3527, "pressTime": 92 },
+        { "index": 1, "seekTime": 602, "pressTime": 71 },
+        { "index": 2, "seekTime": 449, "pressTime": 63 }
+      ]
+    },
+    "passwordData": {
+      "totalTimeMs": 7656,
+      "events": [
+        { "index": 0, "seekTime": 908, "pressTime": 90 },
+        { "index": 1, "seekTime": 299, "pressTime": 73 },
+        { "index": 2, "seekTime": 738, "pressTime": 80 },
+        { "index": 3, "seekTime": 417, "pressTime": 77 },
+        { "index": 4, "seekTime": 532, "pressTime": 73 },
+        { "index": 5, "seekTime": 492, "pressTime": 113 },
+        { "index": 6, "seekTime": 813, "pressTime": 66 },
+        { "index": 7, "seekTime": 882, "pressTime": 78 },
+        { "index": 8, "seekTime": 870, "pressTime": 93 },
+        { "index": 9, "seekTime": 353, "pressTime": 82 },
+        { "index": 10, "seekTime": 450, "pressTime": 77 }
+      ]
+    },
+    "deviceInfo": {
+      "browser": "safari",
+      "isMobile": false,
+      "hasMotion": false,
+      "screenDimensions": { "width": 1920, "height": 1080, "resolution": "1920x1080" },
+      "platform": "Linux x86_64",
+      "language": "en-US",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15"
+    }
+  },
+  {
+    "timestamp": 1766936358205,
+    "date_readable": "2025-12-28T15:39:18.205539488Z",
+    "validated": true,
+    "usernameData": {
+      "totalTimeMs": 4804,
+      "events": [
+        { "index": 0, "seekTime": 3527, "pressTime": 92 },
+        { "index": 1, "seekTime": 602, "pressTime": 71 },
+        { "index": 2, "seekTime": 449, "pressTime": 63 }
+      ]
+    },
+    "passwordData": {
+      "totalTimeMs": 7656,
+      "events": [
+        { "index": 0, "seekTime": 908, "pressTime": 90 },
+        { "index": 1, "seekTime": 299, "pressTime": 73 },
+        { "index": 2, "seekTime": 738, "pressTime": 80 },
+        { "index": 3, "seekTime": 417, "pressTime": 77 },
+        { "index": 4, "seekTime": 532, "pressTime": 73 },
+        { "index": 5, "seekTime": 492, "pressTime": 113 },
+        { "index": 6, "seekTime": 813, "pressTime": 66 },
+        { "index": 7, "seekTime": 882, "pressTime": 78 },
+        { "index": 8, "seekTime": 870, "pressTime": 93 },
+        { "index": 9, "seekTime": 353, "pressTime": 82 },
+        { "index": 10, "seekTime": 450, "pressTime": 77 }
+      ]
+    },
+    "deviceInfo": {
+      "browser": "safari",
+      "isMobile": false,
+      "hasMotion": false,
+      "screenDimensions": { "width": 1920, "height": 1080, "resolution": "1920x1080" },
+      "platform": "Linux x86_64",
+      "language": "en-US",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15"
+    }
+  },
+  {
+    "timestamp": 1766936358205,
+    "date_readable": "2025-12-28T15:39:18.205539488Z",
+    "validated": true,
+    "usernameData": {
+      "totalTimeMs": 4804,
+      "events": [
+        { "index": 0, "seekTime": 3527, "pressTime": 92 },
+        { "index": 1, "seekTime": 602, "pressTime": 71 },
+        { "index": 2, "seekTime": 449, "pressTime": 63 }
+      ]
+    },
+    "passwordData": {
+      "totalTimeMs": 7656,
+      "events": [
+        { "index": 0, "seekTime": 908, "pressTime": 90 },
+        { "index": 1, "seekTime": 299, "pressTime": 73 },
+        { "index": 2, "seekTime": 738, "pressTime": 80 },
+        { "index": 3, "seekTime": 417, "pressTime": 77 },
+        { "index": 4, "seekTime": 532, "pressTime": 73 },
+        { "index": 5, "seekTime": 492, "pressTime": 113 },
+        { "index": 6, "seekTime": 813, "pressTime": 66 },
+        { "index": 7, "seekTime": 882, "pressTime": 78 },
+        { "index": 8, "seekTime": 870, "pressTime": 93 },
+        { "index": 9, "seekTime": 353, "pressTime": 82 },
+        { "index": 10, "seekTime": 450, "pressTime": 77 }
+      ]
+    },
+    "deviceInfo": {
+      "browser": "safari",
+      "isMobile": false,
+      "hasMotion": false,
+      "screenDimensions": { "width": 1920, "height": 1080, "resolution": "1920x1080" },
+      "platform": "Linux x86_64",
+      "language": "en-US",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15"
+    }
+  }
+]

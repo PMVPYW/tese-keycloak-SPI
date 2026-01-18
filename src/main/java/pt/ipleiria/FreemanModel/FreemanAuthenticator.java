@@ -20,7 +20,7 @@ public class FreemanAuthenticator implements ConditionalAuthenticator {
 
     private static final Logger logger = Logger.getLogger(FreemanAuthenticator.class);
     private final FreemanModel freemanModel = new FreemanModel();
-    private static final double RISK_THRESHOLD = 1.5;
+    public static final double RISK_THRESHOLD = 1.5;
 
     @Override
     public boolean matchCondition(AuthenticationFlowContext authenticationFlowContext) {

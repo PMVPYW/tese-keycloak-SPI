@@ -1,10 +1,8 @@
-package pt.ipleiria.OneClassSVM;
+package pt.ipleiria.IsolationFlorest;
 
 import pt.ipleiria.common.KeystrokeEvent;
 import pt.ipleiria.common.UserTypingData;
-import smile.base.svm.KernelMachine;
-import smile.base.svm.OCSVM;
-import smile.math.kernel.GaussianKernel;
+import smile.anomaly.IsolationForest;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -58,7 +56,7 @@ public class BiometricRiskModel {
     }
 
     // --- PASSO 2: CÁLCULO DE RISCO (Onde "Todos os Dados" entram) ---
-    public double calculateRiskWithSVM(UserTypingData currentLogin, List<UserTypingData> history) {
+    public double calculateRiskWithIsolationFLoresr(UserTypingData currentLogin, List<UserTypingData> history) {
 
         // 1. Converter TODO o histórico em vetores brutos
         List<double[]> rawHistoryVectors = new ArrayList<>();
@@ -66,29 +64,14 @@ public class BiometricRiskModel {
             rawHistoryVectors.add(extractRawFeatures(historicEntry));
         }
 
+        double[][] trainingData = rawHistoryVectors.toArray(new double[0][]);
+
         // 2. Extrair vetor bruto do login ATUAL
         double[] currentRawVector = extractRawFeatures(currentLogin);
 
-        // 3. Calcular Min/Max baseados no HISTÓRICO (O contexto necessário)
-        double[][] minMax = calculateMinMax(rawHistoryVectors);
-        double[] min = minMax[0];
-        double[] max = minMax[1];
+        IsolationForest iforest = IsolationForest.fit(trainingData);
 
-        // 4. Normalizar o Treino (Histórico)
-        double[][] normalizedTrainingData = rawHistoryVectors.stream()
-                .map(v -> normalize(v, min, max))
-                .toArray(double[][]::new);
-
-        // 5. Normalizar o Login Atual (Usando a régua do histórico!)
-        double[] normalizedCurrentVector = normalize(currentRawVector, min, max);
-
-        // 6. Treinar SVM e Predizer
-        // (Aqui entra o código do SMILE que vimos antes)
-        GaussianKernel kernel = new GaussianKernel(0.001);
-        OCSVM<double[]> ocsvm = new OCSVM<double[]>(kernel, 0.05, 1E-3);
-        KernelMachine<double[]> classifier = ocsvm.fit(normalizedTrainingData);
-
-        return classifier.score(normalizedCurrentVector);
+        return iforest.score(currentRawVector);
     }
 
     // --- AUXILIAR: Normalização Min-Max ---

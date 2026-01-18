@@ -11,4 +11,7 @@ public class KeystrokeEvent {
         this.seekTime = seekTime;
         this.pressTime = pressTime;
     }
+
+    public KeystrokeEvent() {
+    }
 }

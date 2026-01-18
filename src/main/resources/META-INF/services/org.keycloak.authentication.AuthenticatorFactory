@@ -1,3 +1,4 @@
 pt.ipleiria.KeyStrokeStorer.KeyStrokeStorerFactory
 pt.ipleiria.FreemanModel.FreemanAuthenticatorFactory
 pt.ipleiria.OneClassSVM.OneClassSVMAuthenticatorFactory
+pt.ipleiria.IsolationFlorest.IsolationFlorestAuthenticatorFactory

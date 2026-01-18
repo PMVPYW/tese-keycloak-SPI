@@ -1,4 +1,4 @@
-package pt.ipleiria.OneClassSVM;
+package pt.ipleiria.IsolationFlorest;
 
 import org.jboss.logging.Logger;
 import org.keycloak.authentication.AuthenticationFlowContext;
@@ -9,8 +9,8 @@ import org.keycloak.models.UserModel;
 import pt.ipleiria.common.UserTypingData;
 import pt.ipleiria.common.UserUtils;
 
-public class OneClassSVMAuthenticator implements ConditionalAuthenticator {
-    private static final Logger logger = Logger.getLogger(OneClassSVMAuthenticator.class);
+public class IsolationFlorestAuthenticator implements ConditionalAuthenticator {
+    private static final Logger logger = Logger.getLogger(IsolationFlorestAuthenticator.class);
 
     @Override
     public boolean matchCondition(AuthenticationFlowContext context) {
@@ -19,7 +19,7 @@ public class OneClassSVMAuthenticator implements ConditionalAuthenticator {
         if (user == null) {
             return false;
         }
-        BiometricRiskModel isolationFlorestClassifier = new BiometricRiskModel();
+        BiometricRiskModel isolationForest = new BiometricRiskModel();
 
         UserTypingData lastLogin = UserUtils.getDecodedDataToEvaluate(user);
 
@@ -27,12 +27,12 @@ public class OneClassSVMAuthenticator implements ConditionalAuthenticator {
             return false;
         }
 
-        double risk = isolationFlorestClassifier.calculateRiskWithSVM(lastLogin, UserUtils.getDecodedData(user, lastLogin.deviceInfo.isMobile));
+        double risk = isolationForest.calculateRiskWithIsolationFLoresr(lastLogin, UserUtils.getDecodedData(user, lastLogin.deviceInfo.isMobile));
 
         logger.info("User has risk of: " + risk);
 
         //case its not the user, we ask for the next step (OTP code)
-        return risk < 0;
+        return risk > 0.6;
     }
 
     @Override
